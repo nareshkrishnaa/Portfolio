@@ -1,7 +1,45 @@
-.bg-img
-{
-	
-	height: 52rem;
-	
-
+body,html {
+height: 100%;
+margin: 0;
+}
+.bg {
+/* The image used */
+background:linear-gradient(360deg, rgba(15, 15, 15, 1), rgba(255, 255, 255, 0)), url(images/image1.jpg);
+/* Full height */
+height: 100%; 
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container {
+position: relative;
+text-align: center;
+color: red;
+}
+.bottom-left {
+position: absolute;
+bottom: 8px;
+left: 16px;
+}
+.top-left {
+position: absolute;
+top: 8px;
+left: 16px;
+}
+.top-right {
+position: absolute;
+top: 8px;
+right: 16px;
+}
+.bottom-right {
+position: absolute;
+bottom: 8px;
+right: 16px;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
